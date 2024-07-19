@@ -6,7 +6,7 @@ import { IoTimeOutline } from "react-icons/io5";
 import { FaMicrophone, FaSearch, FaBars,FaRegTrashAlt,FaPauseCircle,FaCog,FaComments,FaFileAlt } from "react-icons/fa";
 import './App.css';
 
-function App() {
+const App= () => {
   const [searchTerm, setSearchTerm] = useState('');
 
   const handleSearchChange = (event) => {
@@ -18,6 +18,7 @@ function App() {
   };
 
   return (
+    <>
     <div className="app">
       <div className="app-nav">
         <button className="app-nav-button">
@@ -289,6 +290,7 @@ function App() {
         </div>
       </div>
     </div>
+  </>
   );
 }
 
