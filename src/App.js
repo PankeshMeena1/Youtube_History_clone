@@ -3,7 +3,7 @@ import { IoMdNotificationsOutline } from "react-icons/io";
 import { IoEllipsisVerticalCircleSharp } from "react-icons/io5";
 import { MdVideoCall } from "react-icons/md";
 import { IoTimeOutline } from "react-icons/io5";
-import { FaMicrophone, FaSearch, FaBars} from "react-icons/fa";
+import { FaMicrophone, FaSearch, FaBars,FaRegTrashAlt,FaPauseCircle,FaCog,FaComments,FaFileAlt } from "react-icons/fa";
 import './App.css';
 
 function App() {
@@ -257,33 +257,33 @@ function App() {
         <div className="app-content-sidebar">
           <div className="app-content-sidebar-item">
             <button className="app-content-sidebar-button">
-              <i className="fas fa-trash-alt"></i> Clear all watch history
+            <FaRegTrashAlt  fontSize={"20px"}/> Clear all watch history
             </button>
           </div>
           <div className="app-content-sidebar-item">
             <button className="app-content-sidebar-button">
-              <i className="fas fa-pause-circle"></i> Pause watch history
+            <FaPauseCircle fontSize={"20px"}/> Pause watch history
             </button>
           </div>
           <div className="app-content-sidebar-item">
             <button className="app-content-sidebar-button">
-              <i className="fas fa-cog"></i> Manage all history
+            <FaCog  fontSize={"20px"}/>  Manage all history
             </button>
           </div>
           <div className="app-content-sidebar-title">More</div>
           <div className="app-content-sidebar-item">
             <button className="app-content-sidebar-button">
-              <i className="fas fa-comment"></i> Comments
+            <FaComments fontSize={"20px"}/> Comments
             </button>
           </div>
           <div className="app-content-sidebar-item">
             <button className="app-content-sidebar-button">
-              <i className="fas fa-file-alt"></i> Posts
+            <FaFileAlt fontSize={"20px"}/>Posts
             </button>
           </div>
           <div className="app-content-sidebar-item">
             <button className="app-content-sidebar-button">
-              <i className="fas fa-comments"></i> Live chat
+            <FaComments fontSize={"20px"}/>Live chat
             </button>
           </div>
         </div>
