@@ -39,6 +39,7 @@
     background-color: transparent;
     border: none;
     margin-top:25%;
+    cursor: pointer;
   }
   .app-nav-logo {
     display: flex;
@@ -91,6 +92,7 @@
     padding: 10px;
     background-color: #fff;
     border-radius: 8px;
+    margin-left: 1%;
   }
   
   .app-content-sidebar-item {
@@ -269,6 +271,12 @@
     .app-content-main-videos {
       flex-direction: column;
     }
+  
+    .app-content-main-video {
+      width: 100%;
+    }
+  }
+  
   
     .app-content-main-video {
       width: 100%;
