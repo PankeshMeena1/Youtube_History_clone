@@ -255,6 +255,13 @@
     font-size: 1rem;
     margin: 5px 0;
   }
+    .app-nav-logo{
+    display: none;
+  }
+ 
+  .app-nav-right{
+      display: none;
+  }
   .app-nav-right{
       display: block;
   }
